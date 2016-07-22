@@ -1,0 +1,23 @@
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster);
+
+
+
+@import 'bootstrap';
+
+.navbar-inverse {
+	border-radius: 0px; 
+}
+
+.center {
+	text-align: center;
+}
+
+.jumbotron h1,
+.jumbotron .h1 {
+	font-family:           'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand {
+	font-family:           'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
