@@ -1,9 +1,13 @@
 
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster);
-
-
-
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+
+.main {
+	background-color: #eeeeee;
+}
 
 .navbar-inverse {
 	border-radius: 0px; 
