@@ -11,8 +11,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 gem 'devise'
-gem 'paperclip', '~> 5.0.0'
-gem 'aws-sdk', '~> 2.3.22'
+gem 'paperclip'
+# gem 'aws-sdk'
+
 
 
 group :development, :test do
