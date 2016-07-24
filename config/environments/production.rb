@@ -90,6 +90,7 @@ Rails.application.configure do
   # Config Paperclip to save photo in AWS on Heorku
   config.paperclip_defaults = {
   :storage => :s3,
+  :region => ENV['AWS_REGION'],
   :s3_credentials => {
     :bucket => ENV['S3_BUCKET_NAME'],
     :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
