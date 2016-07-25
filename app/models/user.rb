@@ -10,4 +10,7 @@ class User < ApplicationRecord
 	validates :password, :presence => true,
      	:on => :create,
      	:format => {:with => /\A.*(?=.{8,})(?=.*\d)(?=.[a-z]).*\Z/ }
+
+  	validates :name, presence: true
+
 end
